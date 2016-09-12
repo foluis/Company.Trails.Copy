@@ -26,7 +26,7 @@ namespace Common.Pages
         //    }
         //}
 
-        //void OnLoginButtonClicked(object sender, EventArgs e)
+        //void OnButtonClicked(object sender, EventArgs e)
         //{
         //    var isValid = AreCredentialsCorrect();
         //    if (isValid)
@@ -40,7 +40,7 @@ namespace Common.Pages
         //        //messageLabel.Text = "Login failed";            
         //    }
         //}
-        
+
 
 
         void OnButtonClicked(object sender, EventArgs args)
