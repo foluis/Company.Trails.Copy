@@ -1,31 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<!--<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Common.Pages.Login">
-  <ContentPage.ToolbarItems>
-    <ToolbarItem Text="Sign Up"  />
-  </ContentPage.ToolbarItems>
-  <ContentPage.Content>
-    
-    <AbsoluteLayout BackgroundColor="#3FAFC6" >
-      <StackLayout Padding="15,60,15,0" AbsoluteLayout.LayoutBounds="0,0,1,.1" AbsoluteLayout.LayoutFlags="All"  >
-        <StackLayout  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
-          <Label Text="Company name" FontSize = "22" FontAttributes="Bold" TextColor="White" HorizontalOptions="Center" />
-        </StackLayout>
-        <StackLayout  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
-          <Label Text="Company slogan" FontSize = "14" TextColor="White" HorizontalOptions="Center"/>
-          <StackLayout Padding="0,200,0,0" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
-            <Button Text="LOGIN &amp; ENTER NOW" Clicked="OnButtonClicked" BackgroundColor="#174387" VerticalOptions="FillAndExpand"/>
-          </StackLayout>
-        </StackLayout>
-      </StackLayout>
-      <StackLayout AbsoluteLayout.LayoutBounds=".5,1,.5,.1" AbsoluteLayout.LayoutFlags="All">
-        <Label Text="Company Copyright" TextColor="White" VerticalOptions="FillAndExpand" HorizontalOptions="Center" />
-      </StackLayout>
-      <Label x:Name="messageLabel" />
-    </AbsoluteLayout>
-  </ContentPage.Content>
-</ContentPage>-->
 <ContentPage x:Class="Common.Pages.Login"
              xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"

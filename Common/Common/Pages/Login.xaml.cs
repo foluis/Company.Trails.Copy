@@ -9,22 +9,26 @@ namespace Common.Pages
         public Login()
         {
             InitializeComponent();
+            OnButtonClicked(null, null);
         }
 
-        //async void OnLoginButtonClicked(object sender, EventArgs e)
-        //{
-        //    var isValid = AreCredentialsCorrect();
-        //    if (isValid)
-        //    {
-        //        App.IsUserLoggedIn = true;
-        //        Navigation.InsertPageBefore(new MainMenu(), this);
-        //        await Navigation.PopAsync();
-        //    }
-        //    else
-        //    {
-        //        //messageLabel.Text = "Login failed";            
-        //    }
-        //}
+        async void OnButtonClicked(object sender, EventArgs e)
+        {
+            var isValid = AreCredentialsCorrect();
+            if (isValid)
+            {
+                App.IsUserLoggedIn = true;
+                //Navigation.InsertPageBefore(new MainMenu(), this);
+                //await Navigation.PopAsync();
+
+                var detailPage = new MainMenu();    
+                await Navigation.PushModalAsync(detailPage);
+            }
+            else
+            {
+                //messageLabel.Text = "Login failed";            
+            }
+        }
 
         //void OnButtonClicked(object sender, EventArgs e)
         //{
@@ -32,21 +36,15 @@ namespace Common.Pages
         //    if (isValid)
         //    {
         //        App.IsUserLoggedIn = true;
-        //        Navigation.PushModalAsync(new MainMenu());
-        //        Navigation.PopAsync();
+
+        //        var detailPage = new MainMenu();
+        //        Navigation.PushModalAsync(detailPage);
         //    }
         //    else
         //    {
         //        //messageLabel.Text = "Login failed";            
         //    }
-        //}
-
-
-
-        void OnButtonClicked(object sender, EventArgs args)
-        {
-            string sera = "hola";
-        }
+        //}     
 
         bool AreCredentialsCorrect()
         {

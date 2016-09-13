@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Common.Services;
 
 using Xamarin.Forms;
 
@@ -13,6 +9,8 @@ namespace Common.Pages
         public MainMenu()
         {
             InitializeComponent();
+
+            listView.ItemsSource = MainMenuData.MainMenuOptions;
         }
     }
 }
