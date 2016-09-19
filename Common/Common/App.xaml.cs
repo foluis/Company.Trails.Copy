@@ -10,7 +10,7 @@ namespace Common
         public App()
         {
             InitializeComponent();
-            //MainPage = new Login();
+            MainPage = new Login();
         }
 
         protected override void OnStart()

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Common.Pages.Login"
+             BackgroundColor="#3FAFC6">  
+  <ContentPage.Content>
+    <StackLayout Padding="0,60,0,15">
+      <StackLayout HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="StartAndExpand"
+                   Padding="2,0,2,0" >
+        <Label HorizontalOptions="Center"
+               FontAttributes="Bold"
+               FontSize="22"
+               Text="Definity First"
+               TextColor="White" />
+        <Label HorizontalOptions="Center"
+             FontSize="14"
+             Text="Dream impossible. We build it"
+             TextColor="White" />
+      </StackLayout>
+      <StackLayout HorizontalOptions="FillAndExpand"
+                   VerticalOptions="CenterAndExpand"
+                   Padding="15,0,15,0">
+        <Button BackgroundColor="#174387"
+                x:Name="btnLogin"
+                Text="LOGIN &amp; ENTER NOW"
+                TextColor="White"
+                FontSize="14"/>
+      </StackLayout>
+      <StackLayout VerticalOptions="EndAndExpand">
+        <Label HorizontalOptions="Center"
+               Text="2016 Definity First. All rights reserved"
+               TextColor="White"/>
+      </StackLayout>
+    </StackLayout>
+  </ContentPage.Content>
+</ContentPage>
