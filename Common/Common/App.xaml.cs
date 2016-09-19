@@ -1,5 +1,4 @@
 ﻿using Common.Pages;
-
 using Xamarin.Forms;
 
 namespace Common
@@ -7,10 +6,11 @@ namespace Common
     public partial class App : Application
     {
         public static bool IsUserLoggedIn { get; set; }
+
         public App()
         {
             InitializeComponent();
-            MainPage = new Login();
+            //MainPage = new Login();
         }
 
         protected override void OnStart()

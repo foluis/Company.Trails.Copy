@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 
-namespace Common.Pages
+namespace Common.Pages.ActivityTracking
 {
-    public partial class Login : ContentPage
+    public partial class ActivityList : ContentPage
     {
-        public Login()
+        public ActivityList()
         {
             InitializeComponent();
         }

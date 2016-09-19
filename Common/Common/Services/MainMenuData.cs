@@ -6,8 +6,6 @@ namespace Common.Services
 {
     public class MainMenuData
     {
-        public static List<string> ValorePrueba = new List<string> { "One", "Two", "Three" };
-
         public static ObservableCollection<MainMenu> MainMenuOptions = new ObservableCollection<MainMenu>
         {
             new MainMenu
@@ -16,7 +14,8 @@ namespace Common.Services
                 ImageName ="ActivityTracking_MenuItem.png",
                 Title ="Activity Tracking",
                 Description ="What are you working on right now",
-                Color ="#ffffff"
+                //Color ="#ffffff"
+                Color ="Purple"
             },
             new MainMenu
             {
@@ -24,7 +23,8 @@ namespace Common.Services
                 ImageName ="OffWork_MenuItem.png",
                 Title ="Off Work",
                 Description ="Take a break from the office!",
-                Color ="#ffffff"
+                //Color ="#ffffff"
+                Color ="Green"
             },
             new MainMenu
             {
@@ -56,6 +56,24 @@ namespace Common.Services
                 ImageName ="UsefulTips_MenuItem.png",
                 Title ="Useful Tips",
                 Description ="Learn all about us right here",
+                Color ="#ffffff"
+            }
+            ,
+            new MainMenu
+            {
+                MenuItemId =7,
+                ImageName ="TalentHunt_MenuItem.png",
+                Title ="Lorem ipsum",
+                Description ="Lorem ipsum dolor sit",
+                Color ="#ffffff"
+            }
+            ,
+            new MainMenu
+            {
+                MenuItemId =8,
+                ImageName ="OffWork_MenuItem.png",
+                Title ="Lorem ipsum",
+                Description ="Lorem ipsum dolor sit amet",
                 Color ="#ffffff"
             }
         };
